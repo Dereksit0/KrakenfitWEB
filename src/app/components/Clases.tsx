@@ -13,7 +13,7 @@ const clases = [
     nombre: 'GYMNASTICS',
     descripcion: 'Control total de tu peso corporal. Mejora tu fuerza, coordinación y técnica en ejercicios de gimnasia aplicados al CrossFit.',
     imagen: '/clase_gymnastics.jpg',
-    nueva: true,
+    nueva: false,
   },
   {
     nombre: 'YOGA',
@@ -31,7 +31,7 @@ const clases = [
     nombre: 'STRETCH',
     descripcion: 'Recuperación inteligente. Optimiza tu movilidad y acelera la recuperación post-entrenamiento.',
     imagen: '/clase_stretch.jpg',
-    nueva: true,
+    nueva: false,
   },
   {
     nombre: 'HYROX',

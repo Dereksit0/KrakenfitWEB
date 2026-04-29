@@ -3,7 +3,7 @@
 import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 
-const WHATSAPP_URL = "https://wa.me/5212223334444?text=Hola!%20Me%20interesa%20unirme%20a%20Kraken%20Fitness%20y%20solicitar%20mi%20clase%20piloto.";
+const WHATSAPP_URL = "https://wa.me/522211873381?text=Hola!%20Me%20interesa%20unirme%20a%20Kraken%20Fitness%20y%20solicitar%20mi%20clase%20piloto.";
 
 const container = {
   hidden: {},
