@@ -67,7 +67,7 @@ export default function Hero() {
           className="font-body text-sm text-kraken-accent/80 tracking-[0.25em] uppercase mb-16"
           variants={item}
         >
-          CrossFit · HYROX · Weightlifting
+          Cross · HYROX · Weightlifting
         </motion.p>
 
         {/* CTA */}

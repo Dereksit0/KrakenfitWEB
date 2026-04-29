@@ -11,7 +11,7 @@ export default function Footer() {
               <img src="/logo_kraken.png" alt="Kraken Fitness Logo" className="w-full h-auto" />
             </div>
             <p className="font-body text-white/50 text-sm leading-relaxed max-w-xs">
-              La mejor comunidad de fitness en Puebla. CrossFit Affiliate y HYROX Official Gym.
+              La mejor comunidad de fitness en Puebla. Cross Training y HYROX Official Gym.
             </p>
           </div>
 
@@ -21,7 +21,7 @@ export default function Footer() {
               Disciplinas
             </p>
             <ul className="space-y-3">
-              {['CrossFit', 'HYROX', 'Weightlifting'].map((d) => (
+              {['Cross', 'HYROX', 'Weightlifting'].map((d) => (
                 <li key={d}>
                   <a
                     href="#disciplinas"
@@ -84,7 +84,7 @@ export default function Footer() {
           </p>
           <div className="flex gap-6">
             <span className="font-body text-white/30 text-[10px] tracking-[0.2em] uppercase font-bold">
-              CrossFit Affiliate
+              Cross Training
             </span>
             <span className="font-body text-white/30 text-[10px] tracking-[0.2em] uppercase font-bold">
               HYROX Official Gym

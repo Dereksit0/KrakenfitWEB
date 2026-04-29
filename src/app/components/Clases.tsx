@@ -11,14 +11,14 @@ const clases = [
   },
   {
     nombre: 'GYMNASTICS',
-    descripcion: 'Control total de tu peso corporal. Mejora tu fuerza, coordinación y técnica en ejercicios de gimnasia aplicados al CrossFit.',
-    imagen: '/clase_gymnastics.jpg',
+    descripcion: 'Control total de tu peso corporal. Mejora tu fuerza, coordinación y técnica en ejercicios de gimnasia aplicados al Cross.',
+    imagen: '/clase_gymnastics.png',
     nueva: false,
   },
   {
     nombre: 'YOGA',
     descripcion: 'Equilibrio y movilidad. El complemento perfecto para recuperar tu cuerpo y enfocar tu mente.',
-    imagen: '/clase_yoga.jpg',
+    imagen: '/clase_yoga.png',
     nueva: false,
   },
   {
@@ -30,7 +30,7 @@ const clases = [
   {
     nombre: 'STRETCH',
     descripcion: 'Recuperación inteligente. Optimiza tu movilidad y acelera la recuperación post-entrenamiento.',
-    imagen: '/clase_stretch.jpg',
+    imagen: '/clase_stretch.png',
     nueva: false,
   },
   {

@@ -25,9 +25,9 @@ const valores: Valor[] = [
   },
   {
     numero: '04',
-    titulo: 'Ambiente competitivo',
+    titulo: 'Ambiente inclusivo',
     descripcion:
-      'Nos preparamos para competir. Desde tu primera clase te exponemos a la mentalidad atlética que separa a los buenos de los grandes.',
+      'Un espacio diseñado para todos. Recibimos con gusto a personas de todos los niveles, asegurando que cada quien se sienta bienvenido y apoyado en su proceso.',
   },
 ];
 

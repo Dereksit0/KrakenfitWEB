@@ -6,6 +6,7 @@ import Horarios from './components/Horarios';
 import Tarifas from './components/Tarifas';
 import PorQueKraken from './components/PorQueKraken';
 import HyroxSection from './components/HyroxSection';
+import CrossSection from './components/CrossSection';
 import Videos from './components/Videos';
 import Testimonios from './components/Testimonios';
 import CTAFinal from './components/CTAFinal';
@@ -21,6 +22,7 @@ export default function Home() {
       <Horarios />
       <Tarifas />
       <PorQueKraken />
+      <CrossSection />
       <HyroxSection />
       <Videos />
       <Testimonios />

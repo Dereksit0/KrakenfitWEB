@@ -8,7 +8,7 @@ interface Testimonio {
 const testimonios: Testimonio[] = [
   {
     nombre: 'Mariana Torres',
-    disciplina: 'CrossFit · 14 meses',
+    disciplina: 'Cross · 14 meses',
     inicial: 'M',
     texto:
       'Llegué sin saber lo que era un thruster y hoy compito en Open. La programación es seria, los coaches te exigen pero siempre con intención. Kraken cambió completamente mi relación con el entrenamiento.',

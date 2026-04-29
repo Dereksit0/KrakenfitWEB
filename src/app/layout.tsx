@@ -19,7 +19,7 @@ const barlow = Barlow({
 export const metadata: Metadata = {
   title: 'Kraken Fitness — La mejor comunidad de Puebla',
   description:
-    'CrossFit Affiliate y HYROX Official Gym en Puebla, México. Comunidad real, coaching de élite y programación inteligente.',
+    'Cross Training y HYROX Official Gym en Puebla, México. Comunidad real, coaching de élite y programación inteligente.',
   icons: {
     icon: [
       {

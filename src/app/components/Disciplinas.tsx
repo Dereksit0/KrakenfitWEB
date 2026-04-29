@@ -12,8 +12,8 @@ interface Disciplina {
 
 const disciplinas: Disciplina[] = [
   {
-    nombre: 'CrossFit',
-    tag: 'Affiliate',
+    nombre: 'Cross',
+    tag: 'Functional',
     descripcion:
       'Entrenamiento funcional de alta intensidad. Combinamos fuerza, cardio y movimiento atlético con programación inteligente pensada para llevarte al siguiente nivel.',
     icon: (
