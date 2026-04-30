@@ -8,7 +8,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="w-48 mb-6">
-              <img src="/logo_kraken.png" alt="Kraken Fitness Logo" className="w-full h-auto" />
+              <img src="/logokrakenfooter.png" alt="Kraken Fitness Logo" className="w-full h-auto" />
             </div>
             <p className="font-body text-white/50 text-sm leading-relaxed max-w-xs">
               La mejor comunidad de fitness en Puebla. Cross Training y HYROX Official Gym.
