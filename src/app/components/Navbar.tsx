@@ -43,7 +43,7 @@ export default function Navbar() {
     <>
       <nav
         className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-300 ${
-          isScrolled || isMobileMenuOpen ? 'bg-kraken-dark/95 backdrop-blur-md py-4 shadow-2xl' : 'bg-transparent py-8'
+          isScrolled || isMobileMenuOpen ? 'bg-[#40A89D] py-4 shadow-2xl' : 'bg-transparent py-8'
         }`}
       >
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
@@ -67,7 +67,7 @@ export default function Navbar() {
               href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-kraken-accent text-kraken-dark font-body text-[10px] font-black tracking-[0.2em] uppercase px-6 py-3 hover:bg-white transition-colors"
+              className="bg-[#0D1F20] text-white font-body text-[10px] font-black tracking-[0.2em] uppercase px-6 py-3 hover:bg-white hover:text-[#0D1F20] transition-colors rounded-sm"
             >
               Únete ahora
             </a>
