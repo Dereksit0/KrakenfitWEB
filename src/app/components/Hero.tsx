@@ -33,30 +33,28 @@ export default function Hero() {
       </div>
 
       <motion.div
-        className="relative z-10 text-center px-6 max-w-5xl mx-auto pt-20"
+        className="relative z-10 text-center px-4 w-full max-w-[1400px] mx-auto mt-15 md:mt-25"
         variants={container}
         initial="hidden"
         animate="visible"
       >
-        {/* Main title */}
-        <motion.h1
-          className="font-display text-[clamp(6rem,20vw,18rem)] leading-none tracking-tighter text-white"
+        {/* Main title image */}
+        <motion.div
+          className="flex justify-center w-full mb-6"
           variants={item}
         >
-          KRAKEN
-        </motion.h1>
+          <img
+            src="/kraken-blanco.png"
+            alt="Kraken"
+            className="w-full max-w-[clamp(24rem,35vw,65rem)] h-auto object-contain"
+          />
+        </motion.div>
 
-        {/* Fitness subtitle */}
-        <motion.p
-          className="font-display text-[clamp(1.5rem,4vw,3.5rem)] leading-none tracking-[0.4em] text-kraken-accent mt-2"
-          variants={item}
-        >
-          FITNESS
-        </motion.p>
+
 
         {/* Tagline */}
         <motion.p
-          className="font-body text-base md:text-xl text-white/80 mt-8 mb-4 tracking-[0.3em] uppercase font-bold"
+          className="font-body text-base md:text-xl text-white/80 mt-16 md:mt-20 mb-4 tracking-[0.3em] uppercase font-bold"
           variants={item}
         >
           La mejor comunidad de Puebla
