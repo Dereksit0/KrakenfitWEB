@@ -9,6 +9,7 @@ import HyroxSection from './components/HyroxSection';
 import CrossSection from './components/CrossSection';
 import Videos from './components/Videos';
 import Testimonios from './components/Testimonios';
+import Ubicacion from './components/Ubicacion';
 import CTAFinal from './components/CTAFinal';
 import Footer from './components/Footer';
 
@@ -26,6 +27,7 @@ export default function Home() {
       <HyroxSection />
       <Videos />
       <Testimonios />
+      <Ubicacion />
       <CTAFinal />
       <Footer />
     </main>

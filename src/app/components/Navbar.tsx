@@ -37,6 +37,7 @@ export default function Navbar() {
     { name: 'Horarios', href: '#horarios' },
     { name: 'Tarifas', href: '#tarifas' },
     { name: 'Comunidad', href: '#comunidad' },
+    { name: 'Ubicación', href: '#ubicacion' },
   ];
 
   return (

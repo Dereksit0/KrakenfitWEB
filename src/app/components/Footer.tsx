@@ -66,6 +66,14 @@ export default function Footer() {
                   @hyroxmx
                 </a>
               </li>
+              <li>
+                <span className="inline-flex items-center gap-2 font-body text-white/60 text-sm">
+                  <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M16.6 5.82c-1.02-.88-1.66-2.16-1.66-3.58h-3.11v13.99c0 1.71-1.39 3.1-3.1 3.1s-3.1-1.39-3.1-3.1 1.39-3.1 3.1-3.1c.31 0 .61.05.89.13V9.94a6.29 6.29 0 0 0-.89-.06 6.23 6.23 0 0 0-6.23 6.23A6.23 6.23 0 0 0 8.73 22.34a6.23 6.23 0 0 0 6.23-6.23V9.71a9.39 9.39 0 0 0 5.5 1.77V8.37a5.97 5.97 0 0 1-3.86-2.55z" />
+                  </svg>
+                  krakenfitness
+                </span>
+              </li>
             </ul>
 
             <div className="mt-8 flex items-center gap-2 text-white/30">
