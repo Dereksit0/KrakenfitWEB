@@ -25,9 +25,9 @@ export default function Hero() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/kraken_fitness_hero.png"
+          src="/hero.jpg"
           alt="Kraken Fitness Gym"
-          className="w-full h-full object-cover opacity-40 grayscale"
+          className="w-full h-full object-cover object-center opacity-40 grayscale"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-kraken-dark/80 via-kraken-dark/40 to-kraken-dark" />
       </div>
@@ -44,7 +44,7 @@ export default function Hero() {
           variants={item}
         >
           <img
-            src="/kraken-blanco.png"
+            src="/logos/logocentral.png"
             alt="Kraken"
             className="w-full max-w-[clamp(24rem,35vw,65rem)] h-auto object-contain"
           />

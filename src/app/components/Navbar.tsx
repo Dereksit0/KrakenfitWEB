@@ -50,7 +50,11 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           {/* Logo */}
           <a href="#inicio" className="relative z-[110] block w-32 md:w-40 transition-transform hover:scale-105">
-            <img src="/logo_kraken.png" alt="Kraken Fitness Logo" className="w-full h-auto" />
+            <img
+              src={isScrolled || isMobileMenuOpen ? '/logos/logonavbarnegro.png' : '/logos/logonavbarblanco.png'}
+              alt="Kraken Fitness Logo"
+              className="w-full h-auto"
+            />
           </a>
 
           {/* Desktop Menu */}
